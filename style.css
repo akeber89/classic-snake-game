@@ -1,0 +1,66 @@
+html,
+body {
+  font-family: "Play", sans-serif;
+  background-image: url(snake2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 52px;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 42px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  background-color: salmon;
+  color: whitesmoke;
+  padding: 20px 30px;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: darksalmon;
+  color: black;
+}
+
+.grid {
+  display: block;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+  border: solid black 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
